@@ -1,7 +1,9 @@
 [package]
-name = "luma"
+name = "luma-lib"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-crossterm = "0.27"
+colored = "2.1.0"
+indicatif = "0.17.8"
+prettytable-rs = "0.10.0"
